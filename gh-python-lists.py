@@ -81,12 +81,9 @@ list6[-1].append("c")
 
 
 # discuss the answers befor runing the following code
-print(f"list1: {list1}") # [1,2,3,4,[a,b]]
-print(f"list2: {list2}") # [1,2,3,4,[a,b],5]
-print(f"list3: {list3}") #
-#print(f"list4: {list4}")
-#print(f"list5: {list5}")
-#print(f"list6: {list6}")
-
-
-print(6,7)
+print(f"list1: {list1}") # [1,2,3,4,[a,b],c,5]
+print(f"list2: {list2}") # [1,2,3,4,[a,b,c], 5]
+print(f"list3: {list3}") # [1,2,3,4,[a,b,w]]
+print(f"list4: {list4}") # [100, 2, 3, 4, ['a', 'b', 'w']]
+print(f"list5: {list5}")  # [1,2,3,4,[a,b,w]]
+print(f"list6: {list6}") # [1,2,3,4,[a,b,c]]
