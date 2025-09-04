@@ -67,11 +67,11 @@ print(cubes)
 import copy
 
 list1 = [1, 2, 3, 4, ["a", "b"]]
-list2 = list1 
-list3 = list1[:]
-list4 = list1.copy()
-list5 = copy.copy(list1) 
-list6 = copy.deepcopy(list1) 
+list2 = list1 # list1 -> list 2
+list3 = list1[:] #makes a copy
+list4 = list1.copy() #mnakes a copy
+list5 = copy.copy(list1) #new copy
+list6 = copy.deepcopy(list1) #related to old coppy
 
 list2.append(5)
 list3[4].append("c") 
